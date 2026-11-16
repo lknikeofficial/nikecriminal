@@ -5411,93 +5411,6 @@ cite,figcaption,.disc,.pcap,.scisrc,.pquote cite,.prdisc{font-size:15px;line-hei
 .smx-bc .smx-bck{color:var(--band-ink)}
 .smx-bck b{color:var(--band-gold);margin-right:8px}
 @media (max-width:520px){.smx-bcl2 li{grid-template-columns:minmax(0,1fr);gap:4px}.smx-bcl2 i{justify-self:start;padding:2px 10px}}
-/* ===== 양형자료 탭 ===== */
-.sentmat{background:var(--bg);border-block:1px solid var(--line)}
-.smx-nav{margin-top:22px;display:flex;flex-wrap:wrap;gap:8px}
-.smx-nav a{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:6px 14px;border:1px solid var(--line);border-radius:999px;background:var(--paper);color:var(--ink);text-decoration:none;font-size:15.5px;font-weight:600}
-.smx-nav a b{width:22px;height:22px;border-radius:50%;background:var(--ink);color:var(--paper);display:grid;place-items:center;font-size:13px}
-.smx-nav a:hover{border-color:var(--accent)}
-.smx-note{margin:16px 0 0;padding:12px 16px;border-left:4px solid var(--gold);background:var(--gold-soft);border-radius:0 10px 10px 0;font-size:15.5px;line-height:1.7}
-.smx-a{color:var(--accent);font-weight:600}
-.smx-key{margin-top:26px;border-radius:18px;background:var(--band);color:var(--band-ink);padding:24px;display:grid;gap:12px;scroll-margin-top:120px}
-.smx-kh{display:flex;flex-wrap:wrap;gap:8px}
-.smx-kb{background:var(--band-gold);color:#1b1404;font-weight:800;font-size:14px;border-radius:6px;padding:3px 10px}
-.smx-kv{border:1px solid var(--band-gold);color:var(--band-gold);font-weight:700;font-size:14px;border-radius:6px;padding:2px 10px}
-.smx-key h3{margin:0;font-family:var(--f-display);font-size:26px}
-.smx-key p{margin:0;font-size:16.5px;line-height:1.8;color:var(--band-ink)}
-.smx-kl{margin:0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:8px}
-.smx-kl li{border:1px dashed var(--band-line);border-radius:999px;padding:5px 14px;font-size:15px;color:var(--band-muted)}
-.smx-kl li::before{content:"•";margin-right:6px;color:var(--band-gold);font-weight:800}
-.smx-kn{padding:12px 14px;border-radius:12px;background:rgba(255,255,255,.07)}
-.smx-kn b{color:var(--band-gold)}
-.smx-kc{display:flex;flex-wrap:wrap;align-items:center;gap:10px 18px}
-.smx-kl2{color:var(--band-gold);font-weight:600;font-size:15.5px;text-underline-offset:4px;min-height:44px;display:inline-flex;align-items:center}
-.smx-key .smterm{border-bottom-color:var(--band-gold)}
-.smx-key .smterm:hover,.smx-key .smterm[aria-expanded="true"]{background:rgba(255,255,255,.14)}
-.smx-blk{margin-top:44px;display:grid;gap:16px;scroll-margin-top:120px}
-.smx-prog{display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;font-size:15.5px;color:var(--muted)}
-.smx-prog b{font-family:var(--f-mono);color:var(--ink);font-size:17px}
-.smx-bar{flex:1 1 140px;max-width:260px;height:10px;border-radius:6px;background:var(--line);overflow:hidden;display:block}
-.smx-bar i{display:block;height:100%;width:var(--p,0%);background:var(--ok);transition:width .3s}
-.smx-grps{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;align-items:start}
-@media (max-width:900px){.smx-grps{grid-template-columns:minmax(0,1fr)}}
-.smx-grp{border:1px solid var(--line);border-radius:16px;background:var(--paper);padding:16px 18px;display:grid;gap:10px}
-.smx-grp h4{margin:0;font-size:17.5px;font-family:var(--f-display)}
-.smx-grp ul{list-style:none;margin:0;padding:0;display:grid;gap:10px}
-.smx-grp li{border-top:1px solid var(--line);padding-top:10px}
-.smx-grp li:first-child{border-top:0;padding-top:0}
-.smx-ck{display:grid;grid-template-columns:26px minmax(0,1fr);gap:12px;cursor:pointer;align-items:start;min-height:44px}
-.smx-ck input{position:absolute;opacity:0;width:1px;height:1px}
-.smx-box{width:24px;height:24px;border:2px solid var(--muted);border-radius:6px;display:grid;place-items:center;margin-top:2px;background:var(--bg)}
-.smx-ck input:checked+.smx-box{background:var(--ok);border-color:var(--ok)}
-.smx-ck input:checked+.smx-box::after{content:"";width:6px;height:11px;border:solid #fff;border-width:0 3px 3px 0;transform:rotate(45deg) translate(-1px,-1px)}
-.smx-ck input:focus-visible+.smx-box{outline:3px solid var(--accent);outline-offset:2px}
-.smx-it{display:grid;gap:3px}
-.smx-it b{font-size:16.5px;line-height:1.5}
-.smx-it span{font-size:15.5px;line-height:1.7;color:var(--muted)}
-.smx-grp li.done .smx-it b{text-decoration:line-through;text-decoration-color:var(--ok);color:var(--muted)}
-.smx-two{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;align-items:start}
-@media (max-width:900px){.smx-two{grid-template-columns:minmax(0,1fr)}}
-.smx-card{border:1px solid var(--line);border-top:3px solid var(--gold);border-radius:14px;background:var(--paper);padding:18px 20px}
-.smx-card h4{margin:0 0 8px;font-size:19px}
-.smx-card ul{margin:0;padding-left:1.1em;display:grid;gap:7px;font-size:16.5px;line-height:1.75}
-.smx-tbl{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--paper)}
-.smx-tbl table{min-width:0;width:100%;font-size:15.5px}
-.smx-tbl th{background:var(--accent-soft);color:var(--ink)}
-.smx-k{font-weight:700;white-space:nowrap;color:var(--accent)}
-.smx-k em{font-style:normal;font-size:13.5px;background:var(--ok-soft);color:var(--ok);border-radius:5px;padding:1px 6px;margin-left:4px}
-.smx-case{display:grid;gap:8px}
-.smx-case h4{margin:6px 0 0;font-size:18px}
-.smx-cs{margin:0;font-size:15.5px;color:var(--muted);line-height:1.7}
-.smx-paper{position:relative;border:1px solid #cfd4da;background:#fff;color:#222;border-radius:6px;padding:26px 26px 22px;box-shadow:0 6px 18px -14px rgba(0,0,0,.5);display:grid;gap:8px}
-.smx-paper h4{margin:0;text-align:center;font-size:21px;letter-spacing:.3em;color:#111}
-.smx-paper h5{margin:8px 0 0;font-size:16px;color:#111}
-.smx-paper p{margin:0;font-size:15.5px;line-height:1.85;color:#222}
-.smx-paper .smx-hd{padding:8px 0;border-bottom:1px solid #ddd}
-.smx-paper .smx-sg{text-align:right;margin-top:10px}
-.smx-tag{position:absolute;right:14px;top:12px;background:var(--seal);color:#fff;border-radius:6px;padding:1px 9px;font-size:13.5px;font-weight:700}
-.smx-q{margin:0;padding:0;list-style:none;display:grid;gap:12px;counter-reset:sq}
-.smx-q li{counter-increment:sq;position:relative;border:1px solid var(--line);border-radius:14px;background:var(--paper);padding:16px 18px 16px 58px;display:grid;gap:4px}
-.smx-q li::before{content:counter(sq);position:absolute;left:16px;top:16px;width:30px;height:30px;border-radius:50%;background:var(--ink);color:var(--paper);display:grid;place-items:center;font-family:var(--f-mono);font-size:15px}
-.smx-q b{font-size:16.5px;line-height:1.6}
-.smx-q span{font-size:15.5px;line-height:1.75;color:var(--muted)}
-.smx-q em{font-style:normal;font-weight:700;color:var(--accent)}
-.smx-end{margin-top:40px;border-radius:16px;background:var(--band);color:var(--band-ink);padding:20px 24px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:14px}
-.smx-end div{display:grid;gap:4px;max-width:60ch}
-.smx-end b{font-size:18.5px;color:var(--band-gold)}
-.smx-end span{font-size:15.5px;line-height:1.7;color:var(--band-ink)}
-.smx-qa{margin:0 0 6px}
-.smx-jump{margin:18px 0 0;border:1px solid var(--line);border-left:4px solid var(--gold);border-radius:12px;background:var(--paper);padding:14px 18px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px 16px}
-.smx-jump div{display:grid;gap:2px}.smx-jump b{font-size:16.5px}.smx-jump span{font-size:15px;color:var(--muted)}
-/* glossary tip (양형자료) */
-.smterm{font:inherit;color:inherit;background:none;border:0;border-bottom:2px dotted var(--accent);padding:0 1px;margin:0;cursor:help;font-weight:600;line-height:inherit;border-radius:2px;text-align:inherit}
-.smterm:hover,.smterm[aria-expanded="true"]{background:var(--accent-soft)}
-.smterm:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
-#smTip{position:fixed;z-index:1200;max-width:min(330px,calc(100vw - 24px));background:var(--ink);color:var(--paper);padding:12px 14px;border-radius:12px;font-size:15px;line-height:1.65;box-shadow:0 10px 30px rgba(0,0,0,.35);pointer-events:none;display:grid;gap:4px}
-#smTip[hidden]{display:none}
-#smTip b{color:var(--band-gold);font-size:15.5px}
-@media (hover:none){#smTip{pointer-events:auto}}
-@media (max-width:640px){.smx-key{padding:18px}.smx-key h3{font-size:23px}.smx-paper{padding:22px 16px 18px}}
 </style>
 </head>
 <body>
@@ -5763,7 +5676,6 @@ cite,figcaption,.disc,.pcap,.scisrc,.pquote cite,.prdisc{font-size:15px;line-hei
         <p class="pquote">"재범의 위험성이 현저히 낮은 경우"에는 법원이 취업제한 명령을 하지 않을 수 있습니다. <cite>청소년성보호법 제56조 제1항 단서</cite></p>
         <a class="pmore" href="#case-notice">실제 사례: 재범위험성 입증으로 신상공개 면제</a>
         <a class="pmore" href="#evidence">법원·보호관찰소가 쓰는 서류 보기</a>
-        <a class="pmore" href="#sentmat">혐의를 인정하는 사건: 양형자료 안내 보기</a>
       </div>
     </article>
 
@@ -5926,7 +5838,6 @@ cite,figcaption,.disc,.pcap,.scisrc,.pquote cite,.prdisc{font-size:15px;line-hei
 
     <details class="fold"><summary><span class="ft"><b>반성문에 관한 판결 보기</b><small>반성문만으로는 부족하다는 항소심 판단 3건</small></span></summary><div class="foldin"><div class="quotes" aria-label="반성문에 관한 판결">
       <p class="qlead">반성문만으로는 부족하다는 것이 법원의 일관된 태도입니다</p>
-      <p class="smx-qa"><a class="inl" href="#sentmat">반성문과 함께 준비할 양형자료 보기</a></p>
       <figure><blockquote>피고인은 항소심에서 거의 매일 반성문을 제출하고 … 하지만 그러한 반성문만으로는 피해자의 피해가 회복될 여지가 없다.</blockquote><figcaption>S법원 항소심 ···837</figcaption></figure>
       <figure><blockquote>피고인이 항소심에서 … 계속하여 반성문을 제출…한 것은 실질적으로 새로운 양형조건으로 크게 참작하기 어렵다.</blockquote><figcaption>S법원 항소심 ···837</figcaption></figure>
       <figure><blockquote>피고인의 반성문, 재범방지서약서 및 출소계획서와 … 탄원서 … 처벌불원서 등 … 추가로 현출된 자료들만으로는 원심의 양형이 … 너무 무거워서 부당하다고 보기는 어렵다.</blockquote><figcaption>S법원 항소심 ···564</figcaption></figure>
@@ -6111,92 +6022,7 @@ cite,figcaption,.disc,.pcap,.scisrc,.pquote cite,.prdisc{font-size:15px;line-hei
 </section>
 <nav class="mcall" aria-label="전화 상담"><a class="p" href="tel:010-9492-1960">24시간 긴급 전화</a><a class="s" href="tel:1644-5468">대표전화</a></nav>
 
-<section class="sec sentmat" id="sentmat">
-  <div class="in">
-    <div class="eyebrow">양형자료</div>
-    <h2 class="t">혐의를 인정한다면<br>양형자료가 결과를 가릅니다</h2>
-    <p class="lede">반성의 진정성과 재범 위험이 낮다는 점은 말이 아니라 <mark class="hl">자료</mark>로 보여 줘야 합니다. 무엇을 준비하고, 어떻게 쓰는지 순서대로 정리했습니다. 점선 밑줄 낱말은 누르거나 올려 보면 뜻이 나옵니다.</p>
-    <nav class="smx-nav" aria-label="이 페이지 바로가기">
-      <a href="#sm-key"><b>1</b> 가장 중요한 자료</a><a href="#sm-list"><b>2</b> 준비 체크리스트</a><a href="#sm-how"><b>3</b> 반성문·탄원서 요령</a><a href="#sm-sample"><b>4</b> 예시문</a><a href="#sm-essay"><b>5</b> 소감문 요령</a>
-    </nav>
-    <p class="smx-note"><b>혐의를 다투는 사건</b>이라면 이 탭보다 <a class="smx-a" href="#acquit">증거능력과 무죄 논리</a>를 먼저 확인하세요. 혐의를 인정하는 사건이라면 아래 순서로 준비합니다.</p>
 
-    <article class="smx-key" id="sm-key">
-      <div class="smx-kh"><span class="smx-kb">가장 중요</span><span class="smx-kv">내방 상담 시 안내</span></div>
-      <h3>재범위험성 평가자료</h3>
-      <p>성폭력처벌법 제17조(판결 전 조사)에 따른 재범위험성 평가자료는 <button type="button" class="smterm" data-t="양형자료" data-def="형량을 정할 때 법원이 참고하는 자료입니다. 반성, 사회적 유대, 재범 위험이 낮다는 점 등을 보여 줍니다.">양형자료</button>자료 가운데 결과에 가장 큰 영향을 줍니다. 재범 위험이 낮다는 점이 객관적으로 확인되면 기소유예, 집행유예, 취업제한·신상정보 공개·고지 면제를 다툴 근거가 됩니다.</p>
-      <ul class="smx-kl"><li>어떤 평가를 어떤 순서로 받는지</li><li>어떤 자료를 함께 준비하는지</li><li>언제 제출하는지</li></ul>
-      <p class="smx-kn">평가 방법과 자료 구성, 제출 시점은 사건마다 달라서 <b>내방 상담에서 사건 내용을 보고 안내해 드립니다.</b></p>
-      <div class="smx-kc"><button class="btn gold" type="button" data-go="contact">내방 상담 문의</button><a class="smx-kl2" href="#riskc">니케의 재범위험성 평가 보기</a><a class="smx-kl2" href="#notice">공개·고지 면제 사례 보기</a></div>
-    </article>
-
-    <div class="smx-blk" id="sm-list">
-      <div class="aplhead"><div class="eyebrow">준비 체크리스트</div><h3>준비할 자료 11가지</h3><p>준비한 자료를 눌러 표시해 두세요. 이 기기에만 저장됩니다.</p></div>
-      <div class="smx-prog" aria-live="polite"><b id="smxCount">0 / 11</b><span class="smx-bar" id="smxBar" aria-hidden="true"><i></i></span><span>준비 완료</span></div>
-      <div class="smx-grps"><div class="smx-grp"><h4>사건을 설명하는 자료</h4><ul><li><label class="smx-ck"><input type="checkbox" data-k="intro"><span class="smx-box" aria-hidden="true"></span><span class="smx-it"><b>자기소개서</b><span>변호사 의견서를 쓸 때 참고하는 기초 자료입니다. 연령, 직업, 성격, 성장 환경, 교우관계, 종교, 평소 성행 등을 적습니다.</span></span></label></li><li><label class="smx-ck"><input type="checkbox" data-k="story"><span class="smx-box" aria-hidden="true"></span><span class="smx-it"><b>사건 경위서</b><span>의견서 작성과 진술교육·조사 리허설의 기초 자료입니다. 구체적인 사실관계를 최대한 상세히 적습니다.</span></span></label></li></ul></div><div class="smx-grp"><h4>반성과 주변의 평가</h4><ul><li><label class="smx-ck"><input type="checkbox" data-k="regret"><span class="smx-box" aria-hidden="true"></span><span class="smx-it"><b>반성문</b><span>컴퓨터로 쓴 것과 자필로 쓴 것을 각각 준비합니다. 보통 A4 2~3매이며, 혐의를 인정할 때 개선의지의 진정성을 보여 주는 자료입니다. <a class="smx-a" href="#sm-how">작성 요령 보기</a></span></span></label></li><li><label class="smx-ck"><input type="checkbox" data-k="plea"><span class="smx-box" aria-hidden="true"></span><span class="smx-it"><b>탄원서</b><span>사건 관계인, 가족, 직장 동료 등 지인이 작성해 주는 서류입니다. 컴퓨터와 자필로 작성하고 탄원인의 신분증을 함께 붙입니다. <a class="smx-a" href="#sm-how">작성 요령 보기</a></span></span></label></li></ul></div><div class="smx-grp"><h4>평소 성행과 사회적 유대</h4><ul><li><label class="smx-ck"><input type="checkbox" data-k="work"><span class="smx-box" aria-hidden="true"></span><span class="smx-it"><b>재직증명서 · 경력증명서 · 생활기록부 · 최종학력(졸업)증명서 · 성적증명서</b><span>평소의 성행과 건강한 사회구성원으로서의 역할, 사회적 유대를 보여 줍니다. 향후 직종에 종사하지 못하는 등 형사처벌 밖에서 예상되는 불이익도 함께 보여 줍니다.</span></span></label></li><li><label class="smx-ck"><input type="checkbox" data-k="serve"><span class="smx-box" aria-hidden="true"></span><span class="smx-it"><b>봉사활동 내역 · 헌혈기록 · 기부내역 · 장기기증서약서</b><span>오랫동안 사회에 공헌해 왔고 범행 이후에는 묵묵히 자숙하고 있다는 점을 보여 줍니다(범행 이후 활동 포함).</span></span></label></li><li><label class="smx-ck"><input type="checkbox" data-k="award"><span class="smx-box" aria-hidden="true"></span><span class="smx-it"><b>상장 · 훈장 · 표창장</b><span>평소의 성행과 건강한 사회구성원으로서의 역할 가능성을 보여 줍니다.</span></span></label></li><li><label class="smx-ck"><input type="checkbox" data-k="family"><span class="smx-box" aria-hidden="true"></span><span class="smx-it"><b>가족관계증명서 · 주민등록등본 · 혼인관계증명서</b><span>부양가족이 있다면 이를 입증합니다. 구속 사건에서는 안정된 가족·지역 유대를 보여 도주 가능성이 낮음을 주장하고 개선 가능성을 입증합니다.</span></span></label></li></ul></div><div class="smx-grp"><h4>재범 위험과 건강</h4><ul><li><label class="smx-ck"><input type="checkbox" data-k="edu"><span class="smx-box" aria-hidden="true"></span><span class="smx-it"><b>성폭력교육 이수 확인증 · 심리상담 내역(소견서)</b><span>재범 위험이 없음을 입증하는 자료입니다. 범행의 원인과 결과를 인식하고 이를 해결하려고 어떤 노력을 하는지 보여 줍니다. <a class="smx-a" href="#sm-essay">소감문 작성 요령 보기</a></span></span></label></li><li><label class="smx-ck"><input type="checkbox" data-k="med"><span class="smx-box" aria-hidden="true"></span><span class="smx-it"><b>의무기록 사본 · 장애인등록증명원 · 진단서</b><span>본인이나 부양해야 할 가족의 질병·장애를 입증합니다. 정신과적 증상이 범행과 관련 있다면 <button type="button" class="smterm" data-t="정신감정" data-def="정신과적 증상이 범행과 관련 있다고 보이는 경우, 법원에 신청해 전문가에게 정신 상태를 감정받는 절차입니다.">정신감정</button> 신청이 가능합니다.</span></span></label></li><li><label class="smx-ck"><input type="checkbox" data-k="etc"><span class="smx-box" aria-hidden="true"></span><span class="smx-it"><b>그 외 낮은 재범률을 입증할 일체의 자료</b><span>위 목록에 없더라도 재범 위험이 낮다는 점을 보여 주는 자료라면 함께 검토합니다.</span></span></label></li></ul></div></div>
-    </div>
-
-    <div class="smx-blk" id="sm-how">
-      <div class="aplhead"><div class="eyebrow">작성 요령</div><h3>반성문과 탄원서, 이렇게 씁니다</h3></div>
-      <div class="smx-two">
-        <article class="smx-card"><h4>반성문</h4><ul>
-          <li>경찰, 검찰, 법원에 <b>편지를 쓰는 형식</b>입니다. 정해진 양식은 없어서 자유롭게 써도 됩니다.</li>
-          <li>여러 번 제출하게 될 수 있습니다.</li>
-          <li>악필이어도 <b>자필</b>을 권합니다. 연필로는 쓰지 않습니다.</li></ul></article>
-        <article class="smx-card"><h4>탄원서</h4><ul>
-          <li><b>사건 내용은 가급적 피하고</b>, 피고인의 평소 품성과 사회적 유대를 통한 교화 가능성을 중심으로 씁니다.</li>
-          <li>작성인의 <b>신분증 사본</b>을 함께 붙입니다.</li></ul></article>
-      </div>
-      <div class="smx-tbl"><table><thead><tr><th>제출 방식</th><th>서식 기준</th></tr></thead><tbody>
-        <tr><td class="smx-k">한글(hwp) 파일</td><td>글자 크기 12pt, 줄간격 230% 정도 · 상단 여백 40mm, 좌우 여백 30mm 정도 · 중요한 내용은 밑줄이나 굵게 표시</td></tr>
-        <tr><td class="smx-k">자필 <em>추천</em></td><td>줄간격 약 0.4~0.5cm, 문단 간격 0.8~1cm 정도 · 좌우 여백은 일정하게 남김 · 악필이더라도 최대한 정성껏</td></tr></tbody></table></div>
-      <div class="smx-case">
-        <h4>사건번호 쓰는 법</h4>
-        <p class="smx-cs">단계마다 글을 쓰는 사람의 신분과 사건번호가 다릅니다.</p>
-        <div class="smx-tbl"><table><thead><tr><th>단계</th><th>신분</th><th>사건번호</th></tr></thead><tbody>
-          <tr><td class="smx-k">경찰</td><td>피의자</td><td>사건 진행에 따라 별도 사건번호가 없을 수 있습니다. 비워 두어도 됩니다(필수가 아닙니다).</td></tr>
-          <tr><td class="smx-k">검찰</td><td>피의자</td><td><button type="button" class="smterm" data-t="형제 번호" data-def="검찰이 형사사건을 접수할 때 붙이는 사건번호입니다. 예) 20XX형제1234">형제 번호</button> 번호가 부여됩니다. 예) 20XX형제1234</td></tr>
-          <tr><td class="smx-k">법원</td><td>피고인</td><td>1심 <button type="button" class="smterm" data-t="고단·고합" data-def="1심 법원 사건번호의 구분 기호입니다. 단독 판사가 맡으면 &#x27;고단&#x27;, 합의부(판사 3명)가 맡으면 &#x27;고합&#x27;을 씁니다.">고단·고합</button>, 항소심 <button type="button" class="smterm" data-t="노 · 도" data-def="항소심 형사 사건번호에는 &#x27;노&#x27;, 상고심 형사 사건번호에는 &#x27;도&#x27;가 붙습니다.">노</button>, 상고심 <button type="button" class="smterm" data-t="노 · 도" data-def="항소심 형사 사건번호에는 &#x27;노&#x27;, 상고심 형사 사건번호에는 &#x27;도&#x27;가 붙습니다.">도</button> 번호가 부여됩니다. 예) 20XX고합5678</td></tr></tbody></table></div>
-        <p class="smx-cs">죄명은 사건에서 적용된 법률과 죄명을 그대로 적고, 신분란에는 피의자 또는 피고인 이름을 적습니다.</p>
-      </div>
-    </div>
-
-    <div class="smx-blk" id="sm-sample">
-      <div class="aplhead"><div class="eyebrow">예시문</div><h3>이런 구성으로 씁니다</h3><p>아래는 구성을 보여 주는 <b>예시</b>입니다. 실제 사건에 쓰는 글은 본인의 상황에 맞게 직접 작성해야 합니다.</p></div>
-      <div class="smx-two">
-        <article class="smx-paper"><span class="smx-tag">예시</span><h4>반성문</h4>
-          <p class="smx-hd">사건번호 : 20XX고합XXX<br>죄 명 : <br>피고인 (혹은 피의자) : ○○○</p>
-          <p>존경하는 재판장님,<br>저는 본 사건의 피고인 ○○○입니다.</p>
-          <h5>1. 범죄 사실 인정 및 피해자에 대한 사과</h5><p>이번 사건으로 인하여 피해자에게 불편함과 정신적 충격을 준 사실을 모두 인정합니다. 저의 경솔한 행동으로 인해 피해자 분께 심각한 고통을 드린 점에 대해 진심으로 마음 깊이 사과드립니다.</p>
-          <h5>2. 구체적 반성 내용 (+ 2차 가해 방지 의지)</h5><p>사건 당시 ~한 행위가 상대방에게 얼마나 큰 상처와 공포를 주는지 사건 이후 다시 한번 깊이 깨닫게 되었습니다. 피해자 분께 어떤 방식으로든 접촉·보복·압박을 하지 않을 것을 약속드리며, 피해자 분이 원하지 않는 방식의 합의 요구나 접근은 절대 하지 않겠습니다.</p>
-          <h5>3. 재범 방지를 위한 노력</h5><p>사건 이후 저는 (재범방지교육 및 성인지 감수성 교육 수강, 음주나 충동 조절을 위한 엄격한 생활 관리, 단약을 위한 상담센터의 단약 치료 상담) 등을 통해 다시는 같은 행동이 반복되지 않도록 적극적으로 노력하고 있습니다. 또한 주변 사람들로부터 제 행동이 얼마나 잘못된 것인지 지속적으로 지도를 받으며, 스스로를 통제하기 위한 습관을 만들고 있습니다.</p>
-          <h5>4. 선처 요청 이유</h5><p>저의 잘못된 행동으로 인해 벌어진 일에 대하여 깊이 반성하고 있으며, 이를 평생 교훈으로 삼아 더욱 바르게 살아가겠습니다. 부디 선처를 베풀어주시길 간곡히 부탁드립니다.</p>
-          <p class="smx-sg">20XX. 00. 00<br>피고인(혹은 피의자) ○○○ 올림 (사인 혹은 지장)</p></article>
-        <article class="smx-paper"><span class="smx-tag">예시</span><h4>탄원서</h4>
-          <p class="smx-hd">탄원인 : △△△<br>피탄원인 : (피의자 또는 피고인 성명)<br>피탄원인과의 관계 : (가족 / 직장 상사 / 지인 등)<br>연락처 : </p>
-          <p>존경하는 재판장님,<br>저는 이 사건을 저지른 ○○○의 가족 △△△입니다.</p>
-          <h5>1. 피탄원인의 인물됨 평가</h5><p>저는 피고인 ○○○를 오랜 기간 지켜본 사람으로서, 평소 그는 성실하고 타인을 배려하려는 성향이 강한 사람입니다. 이번 사건은 분명 잘못된 행동이지만, 그 사람의 평소 모습과는 다소 동떨어진 행동입니다.</p>
-          <h5>2. 사건 이후 변화 및 반성</h5><p>사건 이후 그는 자신의 행동을 깊이 반성하며, (성범죄 재범 방지 교육 수강, 상담 치료 참여, 음주 절제, 단약 치료) 등 여러 노력을 지속하고 있습니다.</p>
-          <h5>3. 재범 위험성 없음</h5><p>그는 사건 이후 피해자에게 어떤 형태의 접근도 하지 않았으며, 주변에서 지속 관리할 가정 또는 직장 기반이 튼튼합니다. 이 점에서 피고인이 똑같은 범행을 저지를 가능성은 매우 낮다고 생각합니다.</p>
-          <h5>4. 선처 요청</h5><p>피고인이 다시는 같은 잘못을 저지르지 않도록 옆에서 계속 지도·관리하겠습니다. 이번 일을 교훈 삼아 사회의 일원으로 성실히 살아갈 수 있도록 부디 한 번의 기회를 주시길 간곡히 부탁드립니다.</p>
-          <p class="smx-sg">20XX. 00. 00<br>탄원인 △△△ 올림 (사인 혹은 지장)</p></article>
-      </div>
-    </div>
-
-    <div class="smx-blk" id="sm-essay">
-      <div class="aplhead"><div class="eyebrow">소감문 작성 요령</div><h3>성폭력 교육 이수 소감문, 이 네 가지에 답합니다</h3><p>교육을 이수한 뒤 쓰는 소감문입니다. 질문마다 구체적으로 답할수록 재범 위험이 낮다는 점이 잘 드러납니다.</p></div>
-      <ol class="smx-q">
-        <li><b>이 사건 발생의 가장 주요 원인이 무엇이라고 생각하시나요?</b><span>예) 피해자에 대한 애정, 남성성 과시 등</span></li>
-        <li><b>본인의 내재적 원인 중 범행과 직결되는 주된 원인이 무엇이라고 생각하시나요?</b><span>예) 순간적인 충동조절 실패, 남성성 과시 등</span></li>
-        <li><b>교육을 수강하시면서 본인 및 피해자와 관련하여 어떤 생각을 하셨나요?</b><span>예) 피해자 입장에서의 피해 크기 실감, 주변인들의 실망 등</span></li>
-        <li><b>앞으로 이러한 잘못을 되풀이하지 않기 위해 어떤 노력을 하실 계획인가요?</b><span><em>가. 내적 자기조절 방안</em> 예) 정신과 치료 외에 별도의 치료 등<br><em>나. 외적 자기조절 방안</em> 예) 현재 지역에서의 이사, 피해자 주거 분리 등</span></li>
-      </ol>
-    </div>
-
-    <div class="smx-end"><div><b>내 사건에 맞는 양형자료, 어떻게 구성할까요?</b><span>자료의 종류와 제출 시점은 사건 단계(경찰·검찰·법원)와 혐의 인정 여부에 따라 달라집니다. 재범위험성 평가자료를 포함해 내방 상담에서 안내해 드립니다.</span></div><button class="btn gold" type="button" data-go="contact">내방 상담 문의</button></div>
-    <p class="disc">이 페이지는 일반적인 안내이며, 구체적인 사건의 결과를 보장하지 않습니다.</p>
-  </div>
-</section>
 
 <div id="guideview" hidden></div><section id="tool" hidden></section>
 <footer>
@@ -6682,7 +6508,6 @@ function renderResults(text){
    <div class="refs"><h4>이 페이지에서 함께 읽어 보세요</h4><ul>${refs(c,r.x.f).map(([h,l,s,x3])=>`<li><a href="${h}"${x3?` class="${x3}"`:''}>${esc(l)} <small>${esc(s)}</small></a></li>`).join('')}</ul></div>
   </div></details></article>`; });
  if(solve) html+=`<div class="rsum solvehd"><h3>이렇게 대응합니다</h3><p>위 사례를 본 뒤 읽어 보세요</p></div>`+solve;
- if(q.circ.has('범행 인정')||/인정(?:합니다|했|하고|하는)|자백|시인|잘못을 /.test(text)) html+=`<div class="smx-jump"><div><b>혐의를 인정하는 사건이라면</b><span>반성문·탄원서·재범위험성 평가자료 등 양형자료를 어떻게 준비하는지 안내합니다.</span></div><a class="btn solid" href="#sentmat">양형자료 안내 보기</a></div>`;
  html+=renderVideos(text,list[0]&&list[0].x.c);
  html+='<p class="disc">과거 사건의 결과는 개별 사건의 같은 결과를 보장하지 않습니다. 유사도는 글에 적힌 특징을 기록과 자동으로 비교한 참고 수치입니다. <small class="orig">* 원본 확인이 필요하신 경우 내방 상담을 요청해 주세요.</small></p>';
  box.innerHTML=html;
@@ -6827,8 +6652,8 @@ window.addEventListener('pageshow',restoreFind);
     strength:'<path d="M12 2 4 5v6c0 5 3.4 9.4 8 11 4.6-1.6 8-6 8-11V5z"/><path d="m9 12 2 2 4-4"/>',guides:'<path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V3H6.5A2.5 2.5 0 0 0 4 5.5z"/><path d="M4 19.5V21h16"/>',
     process:'<path d="M9 5h11M9 12h11M9 19h11"/><circle cx="4.5" cy="5" r="1.5"/><circle cx="4.5" cy="12" r="1.5"/><circle cx="4.5" cy="19" r="1.5"/>',
     acquit:'<path d="m14 13-7.5 7.5a2.1 2.1 0 0 1-3-3L11 10"/><path d="m16 16 6-6M8 8l6-6M9 7l8 8M21 11l-8-8"/>',tool:'<path d="M12 3v18M5 7h14M3 13l2-6 2 6a2.5 2.5 0 0 1-4 0zM17 13l2-6 2 6a2.5 2.5 0 0 1-4 0z"/>',
-    jobs:'<rect x="3" y="7" width="18" height="13" rx="2"/><path d="M9 7V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2M3 13h18"/>',jobban:'<rect x="3" y="11" width="18" height="10" rx="2"/><path d="M7 11V8a5 5 0 0 1 10 0v3"/>',sent:'<path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/><path d="m9 14 2 2 4-4"/>',guide:'<path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/>'};
-  const TABS=[['home','홈',['press','find','stmt','hero','strengths3','pledge']],['strength','니케의 강점',['risk','polyx','evidence','notice']],['sent','양형자료',['sentmat']],];
+    jobs:'<rect x="3" y="7" width="18" height="13" rx="2"/><path d="M9 7V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2M3 13h18"/>',jobban:'<rect x="3" y="11" width="18" height="10" rx="2"/><path d="M7 11V8a5 5 0 0 1 10 0v3"/>',guide:'<path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/>'};
+  const TABS=[['home','홈',['press','find','stmt','hero','strengths3','pledge']],['strength','니케의 강점',['risk','polyx','evidence','notice']],];
   const SEC2TAB={}; TABS.forEach(([k,,ids])=>ids.forEach(i=>SEC2TAB[i]=k));
   const GV=document.getElementById('guideview');
   const all=TABS.flatMap(t=>t[2]).map(i=>document.getElementById(i)).filter(Boolean);
@@ -7101,24 +6926,5 @@ addEventListener('keyup',function(e){if(e.key==='PrintScreen'){warn();try{naviga
 addEventListener('beforeprint',warn);})();</script>
 <script>(function(){function fix(r){(r||document).querySelectorAll('a[href^="#"]').forEach(function(a){var h=a.getAttribute('href').slice(1);if(h.length>1&&!document.getElementById(h)){var sp=document.createElement('span');sp.className=a.className;sp.innerHTML=a.innerHTML;a.replaceWith(sp);}});}
 fix();new MutationObserver(function(){fix();}).observe(document.body,{childList:true,subtree:true});})();</script>
-<script>(function(){var root=document.getElementById('sentmat');if(!root)return;
-/* checklist */
-var KEY='nike-sentmat',saved={};try{saved=JSON.parse(localStorage.getItem(KEY)||'{}');}catch(e){}
-var boxes=root.querySelectorAll('.smx-ck input'),out=document.getElementById('smxCount'),bar=document.getElementById('smxBar');
-function upd(){var n=0;boxes.forEach(function(b){if(b.checked)n++;b.closest('li').classList.toggle('done',b.checked);});out.textContent=n+' / '+boxes.length;bar.style.setProperty('--p',(boxes.length?n/boxes.length*100:0)+'%');}
-boxes.forEach(function(b){if(saved[b.dataset.k])b.checked=true;b.addEventListener('change',function(){saved[b.dataset.k]=b.checked;try{localStorage.setItem(KEY,JSON.stringify(saved));}catch(e){}upd();});});upd();
-/* glossary tip */
-var tip=document.createElement('div');tip.id='smTip';tip.setAttribute('role','tooltip');tip.hidden=true;document.body.appendChild(tip);var cur=null,pinned=false;
-function show(el){cur=el;tip.innerHTML='<b></b><span></span>';tip.firstChild.textContent=el.dataset.t||el.textContent;tip.lastChild.textContent=el.dataset.def;tip.hidden=false;el.setAttribute('aria-expanded','true');el.setAttribute('aria-describedby','smTip');
-var r=el.getBoundingClientRect();tip.style.left='0px';tip.style.top='0px';var tw=tip.offsetWidth,th=tip.offsetHeight;var x=Math.min(Math.max(12,r.left+r.width/2-tw/2),innerWidth-tw-12);var y=r.top-th-10;if(y<70)y=r.bottom+10;tip.style.left=x+'px';tip.style.top=y+'px';}
-function hide(){if(cur){cur.setAttribute('aria-expanded','false');cur=null;}tip.hidden=true;pinned=false;}
-root.querySelectorAll('.smterm').forEach(function(el){el.setAttribute('aria-expanded','false');
-el.addEventListener('mouseenter',function(){if(!pinned)show(el);});el.addEventListener('mouseleave',function(){if(!pinned)hide();});
-el.addEventListener('focus',function(){if(!pinned)show(el);});el.addEventListener('blur',function(){if(!pinned)hide();});
-el.addEventListener('click',function(e){e.preventDefault();e.stopPropagation();if(cur===el&&pinned){hide();}else{pinned=true;show(el);}});});
-document.addEventListener('click',function(e){if(!e.target.closest||!e.target.closest('.smterm'))hide();});
-document.addEventListener('keydown',function(e){if(e.key==='Escape')hide();});
-addEventListener('scroll',function(){if(!cur||tip.hidden)return;var r=cur.getBoundingClientRect();if(r.bottom<60||r.top>innerHeight){hide();}else if(pinned){show(cur);}else{hide();}},{passive:true});
-})();</script>
 </body>
 </html>
